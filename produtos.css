@@ -1,10 +1,24 @@
 header{
     background-color: #bbbbbb;
+    padding: 20px 0; /* 20 px para cima e para baixo e nada para os lados*/
+}
+
+.caixa {
+    width: 940px;
+    position: relative;     /* levantando a importancia dentro do codigo para a caixa */
+    margin: 0 auto;   /* 0 para cima e para baixo e para os lados automaticamente (melhor jeito para centralizar uma div*/
+}
+
+nav{
+    position: absolute;   /* abrindo a possibilidade de mover os itens dentro da .caixa */
+    top: 110px;
+    right: 0;
 }
 
 nav li{
     display: inline;
     margin: 0 0 0 15px;
+    
 }
 
 nav a{
@@ -13,4 +27,5 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+    
 }
