@@ -1,0 +1,4 @@
+font-weight: bold; - DEIXA A FONTE EM NEGRITO
+text-transform: uppercase; - TRANSFORMA EM MAIÚSCULO
+text-decoration: none; - TIRA O SUBLINHADO DO TEXTO (OU TODAS SUAS DECORAÇÕES)
+margin: 0 0 0 15px; (PRIMEIRO PARA O TOPO - PARA A DIREITA - PARA BAIXO - ESQUERDA - SENTIDO HORÁRIO)
