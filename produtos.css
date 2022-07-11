@@ -9,6 +9,14 @@ header{
     margin: 0 auto;   /* 0 para cima e para baixo e para os lados automaticamente (melhor jeito para centralizar uma div*/
 }
 
+.titulo-principal{
+    padding-left: 20px;
+    font-size: 45px;
+    position: absolute;  
+    top: 20px;
+    right: 0;
+}
+
 nav{
     position: absolute;   /* abrindo a possibilidade de mover os itens dentro da .caixa */
     top: 110px;
