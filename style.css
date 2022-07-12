@@ -46,19 +46,28 @@ nav a:hover {
 
 .principal{
     background-color: #CCCCCC;
-    padding: 30px;
+    padding: 50px;
+    line-height: 25px;
+    
+}
+
+.beneficios h3{
+    padding: 35px;
 }
 
 .titulo-centralizado {
     text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 p{
     text-align: center;
 }
 
-#missao{
-    font-size: 20px;
+.missao{
+    font-size: 19px;
 }
 
 em strong {
@@ -70,15 +79,35 @@ em strong {
 }
 
 .beneficios{
-    padding: 20px;
-    background-color: #FFFFFF;
+    background-color: #cccccc;
+    position: relative;
+    padding: 1px;
 }
 
-ul{
+.beneficios h3{
+    position: absolute;
+    top: 30px;
+    margin-right: 25%;
+    right: 0;
+}
+
+.beneficios ul{
     display: inline-block;
-    vertical-align: top;
     width: 20%;
     margin-right: 15%;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    /*
+    vertical-align:top;
+    */
+}
+
+.beneficios li{
+        color: #000000;
+        font-weight: bold;
+        font-size: 22px;
+        padding: 10px;
 }
 
 .imagembeneficios {
