@@ -148,3 +148,17 @@ form label, form legend{
     transform: scale(1.01);
 }
 
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background-color: #555555;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black ;
+    padding: 8px 15px;
+}
