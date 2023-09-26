@@ -8,15 +8,17 @@ header{
 }
 
 .caixa {
+    display: flex;
+    justify-content: flex-start;
     width: 940px;
-    position: relative;     
+    position: relative;
     margin: 0 auto;
 }
 
 .titulo-principal{
     padding-left: 20px;
     font-size: 45px;
-    position: absolute;  
+    position: absolute;
     top: 20px;
     right: 0;
 }
@@ -48,7 +50,6 @@ nav a:hover {
     background-color: #CCCCCC;
     padding: 50px;
     line-height: 25px;
-    
 }
 
 .beneficios h3{
